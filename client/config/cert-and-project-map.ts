@@ -18,24 +18,7 @@ const jsAlgo22Base = '/learn/javascript-algorithms-and-data-structures-v8';
 const feLibsBase =
   '/learn/front-end-development-libraries/front-end-development-libraries-projects';
 const dataVisBase = '/learn/data-visualization/data-visualization-projects';
-const relationalDatabaseBase = '/learn/relational-database';
-const apiMicroBase =
-  '/learn/back-end-development-and-apis/back-end-development-and-apis-projects';
-const qaBase = '/learn/quality-assurance/quality-assurance-projects';
-const infoSecBase = '/learn/information-security/information-security-projects';
-const sciCompPyBase = '/learn/scientific-computing-with-python';
-const dataAnalysisPyBase =
-  '/learn/data-analysis-with-python/data-analysis-with-python-projects';
-const machineLearningPyBase =
-  '/learn/machine-learning-with-python/machine-learning-with-python-projects';
-const collegeAlgebraPyBase = '/learn/college-algebra-with-python';
-const takeHomeBase = '/learn/coding-interview-prep/take-home-projects';
-const foundationalCSharpBase =
-  '/learn/foundational-c-sharp-with-microsoft/foundational-c-sharp-with-microsoft-certification-exam';
-const fullStackDeveloperBase = '/learn/full-stack-developer';
-const a2EnglishBase = '/learn/a2-english-for-developers';
-const b1EnglishBase = '/learn/b1-english-for-developers';
-const legacyFrontEndBase = feLibsBase;
+
 const legacyFrontEndResponsiveBase = responsiveWebBase;
 const legacyFrontEndTakeHomeBase = takeHomeBase;
 const legacyBackEndBase = apiMicroBase;
@@ -68,13 +51,7 @@ const allStandardCerts = [
         link: getResponsiveWebDesignPath('build-a-survey-form'),
         certSlug: Certification.RespWebDesign
       },
-      {
-        id: 'bd7158d8c442eddfaeb5bd18',
-        title: 'Build a Tribute Page',
-        link: getResponsiveWebDesignPath('build-a-tribute-page'),
-        certSlug: Certification.RespWebDesign
-      },
-      {
+     
         id: '587d78b0367417b2b2512b05',
         title: 'Build a Technical Documentation Page',
         link: getResponsiveWebDesignPath(
